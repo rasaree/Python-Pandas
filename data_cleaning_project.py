@@ -14,10 +14,3 @@ df = df.drop_duplicates(keep=False)
 
 #show final dataset
 print(df)
-
-#tabulate dataset
-from tabulate import tabulate
-import pandas as pd
-
-
-df = pd.read_csv(r"C:\Users\Administrator\Desktop\Data Analysis\Data Set For Task\1) iris.csv")
