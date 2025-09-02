@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Load the CSV file (replace with your actual file name)
+# Load the CSV file
 df = pd.read_csv(r"C:\Users\Administrator\Desktop\Data Analysis\Data Set For Task\1) iris.csv")
 
 # Show the all rows
@@ -18,5 +18,6 @@ print(df)
 #tabulate dataset
 from tabulate import tabulate
 import pandas as pd
+
 
 df = pd.read_csv(r"C:\Users\Administrator\Desktop\Data Analysis\Data Set For Task\1) iris.csv")
